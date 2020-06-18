@@ -36,8 +36,25 @@ We have widgets as values of properties a lot of the time.
 eg it can take in the appBar property
 (b)Center widget centralizes whatever is placed inside of it.It may take in another
 widget eg Text or any other widget.
+(c)Text.
+(d)Text Style.Passed in as a style widget in the text property to style the text.
 
+```
+**Styling**
+```
+We use objects to apply styling..All the style properties are wrapped in
+Objects eg the Colors.red[600] and FontWeight.bold
 
+```
+
+**Importing assets**
+```
+pubsec .yaml is used to link external fonts
+
+fonts:
+    - family: IndieFlower
+      fonts:
+        - asset: fonts/IndieFlower-Regular.ttf
 
 ```
 **Notes by**
@@ -49,5 +66,5 @@ Mbugua Caleb
 
 **Tutor**
 ```
-The net Ninja
+The Net Ninja
 ```
