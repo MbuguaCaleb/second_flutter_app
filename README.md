@@ -91,6 +91,28 @@ parent.
 
 (You are going to override the method of a parent class and use that of the child class .
 
+
+**Images**
+
+```
+We may use either a network image(from internet) or an assets image(within an application).
+(a)  image: NetworkImage('external url')->works automatically.
+
+(b) image:AssetImage('local url')->linked with pubspec.yaml.
+
+pubspec.yaml
+
+ assets:
+    - assets/
+    
+ I declare my assets so that they shall be accessible.
+
+Image and assets may also be declared in a much shorthand way.
+
+ body: Center(
+        child: Image.asset('assets/image4.jpg')
+   ),
+      
 ```
 **Notes by**
 
