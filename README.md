@@ -91,7 +91,7 @@ parent.
 
 (You are going to override the method of a parent class and use that of the child class .
 
-
+```
 **Images**
 
 ```
@@ -114,6 +114,60 @@ Image and assets may also be declared in a much shorthand way.
    ),
       
 ```
+**Buttons and Icons**
+```
+You may use any icons in the material UI Library while working with flutter.
+
+
+(a)Icons
+ body: 
+Center(
+        child: Icon(
+          Icons.airport_shuttle,
+          color: Colors.lightBlue,
+          size:50.0
+        )
+ ),
+
+Remember that when we are nesting a widget within a widget we do use the child property most
+of the time.
+
+Buttons
+There are different types:
+
+(a)Raised button.A raised button is slightly raised(A raised button has a shadow)
+
+(b)Flat button.
+
+The onPressed button property takes in a function as a value.
+
+ Center(
+        child: FlatButton(
+          onPressed: () {
+            print("You clicked me");
+          },
+          child: Text('click me'),
+          color: Colors.lightBlue,
+        )
+      ),
+
+(c)Icons inside buttons
+
+child: RaisedButton.icon(
+          onPressed: (){},
+          icon:Icon(
+            Icons.mail
+          ),
+          label: Text('mail me'),
+          color: Colors.amber,
+       )
+
+(d)We also have an icon button which normally an icon that is fireable/clickable
+just like a button.Meaning that it has an onPressed property.
+
+
+```
+
 **Notes by**
 
 ```
