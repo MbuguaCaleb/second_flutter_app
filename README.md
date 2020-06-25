@@ -165,6 +165,43 @@ child: RaisedButton.icon(
 (d)We also have an icon button which normally an icon that is fireable/clickable
 just like a button.Meaning that it has an onPressed property.
 
+```
+
+**Container and Padding**
+```
+(a)A container upserts or wraps around an element.
+
+If the container has no child it takes the full width of the window.
+
+However if the container has got a child widget, the container sticks to the size of that child
+widget.
+
+Margin is outside of the container while padding is inside of the container.
+
+EdgeInsets is the property that is used to control the margin and padding.
+
+This is how a container may be used to style a widget...(Since it surrounds that
+particular widget
+
+       body:Container(
+        padding: EdgeInsets.fromLTRB(10.0, 20.0, 30.0, 40.0),
+        margin: EdgeInsets.all(30.0),
+        color:Colors.grey[400],
+        child: Text('caleb'),
+      ),
+
+
+You may want to align an element but not touch on margin and also
+you may not want an element to be surrounded with color ...For instance this the padding
+widget is highly useful.
+
+      Padding(
+        child: Text('Hello'),
+        padding: EdgeInsets.all(30.0),
+      ),
+
+We cannot apply color of padding to a margin widget.
+
 
 ```
 
