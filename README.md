@@ -165,6 +165,15 @@ child: RaisedButton.icon(
 (d)We also have an icon button which normally an icon that is fireable/clickable
 just like a button.Meaning that it has an onPressed property.
 
+```
+
+**Container and Padding**
+```
+(a)A container upserts or wraps around an element.
+
+If the container has no child it takes the full width of the window..However if it has a child widget
+a container only wraps around that child widget.
+
 
 ```
 

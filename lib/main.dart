@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 
@@ -7,8 +8,6 @@ import 'package:flutter/material.dart';
 void main() => runApp(MaterialApp(
   home:Home()
 ));
-
-
 
 /*Custom hot reload flutter class*/
 /*I shall be returning all the widgets whose state does not change under the Stateless Widget*/
@@ -21,15 +20,10 @@ class Home extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.red[600],
       ),
-      body: Center(
-        child: RaisedButton.icon(
-          onPressed: (){},
-          icon:Icon(
-            Icons.mail
-          ),
-          label: Text('mail me'),
-          color: Colors.amber,
-        )
+      body:Container(
+        padding: EdgeInsets.symmetric(horizontal:30.3, vertical: 10.0),
+        color:Colors.grey[400],
+        child: Text('caleb'),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: (){},
