@@ -226,9 +226,22 @@ Row Properties
 
 (b)There are two axes in terms of flutter alignment.The mainAxis(x-axis) and the crossAxis(y-axis).
  
-
 ```
 
+**Columns**
+```
+They are used for alignment and they are the opposite of a row.
+
+we use the mainaxis alignment as the main axis which is the column as the name suggests.
+
+The main axis in a column is vertical.
+
+The cross axis is the smaller axis in each case...
+
+(the column when centering takes the maximum width of the element which you are aligning.
+
+We may as well nest rows and columns.
+```
 
 **Notes by**
 
