@@ -140,7 +140,8 @@ There are different types:
 (b)Flat button.
 
 The onPressed button property takes in a function as a value.
-
+adding a text within a button property requires that we add a child property to the
+button widget and then we add the Text Widget.
  Center(
         child: FlatButton(
           onPressed: () {
@@ -190,7 +191,8 @@ particular widget
         child: Text('caleb'),
       ),
 
-
+padding refers to the space in the inside of an element.
+Margin refers to the space in the outside of an element.
 You may want to align an element but not touch on margin and also
 you may not want an element to be surrounded with color ...For instance this the padding
 widget is highly useful.
@@ -204,6 +206,29 @@ We cannot apply color of padding to a margin widget.
 
 
 ```
+
+**Rows**
+```
+Are holders of mutiple widgets...
+How do you hold mutiple widgets all in one place/container??
+
+Row takes in a list of widgets.
+And therefore we may have mutiple widgets within a Row
+
+For instance you may have three different widgets all inside the same row
+and use flexbox or css grid structure to align there widgets.
+
+Row Properties
+
+(a)We add the mainAxisAlignment Property for alignment within the row itself
+
+ mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+
+(b)There are two axes in terms of flutter alignment.The mainAxis(x-axis) and the crossAxis(y-axis).
+ 
+
+```
+
 
 **Notes by**
 
