@@ -278,8 +278,15 @@ use them for the puposes of alignment.
 
 Column works exactly as a rown , but in the opposite direction.
 The great thing is that columns and rows may be nested .
+
 ```
 
+**Flutter shortucuts**
+```
+There are a number of flutter shortcuts for example moving of a widget up ot down
+and also flutter outline in the side bar
+
+```
 
 **Notes by**
 
