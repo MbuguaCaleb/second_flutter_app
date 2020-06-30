@@ -277,7 +277,7 @@ use them for the puposes of alignment.
      ),
 
 Column works exactly as a rown , but in the opposite direction.
-
+The great thing is that columns and rows may be nested .
 ```
 
 
