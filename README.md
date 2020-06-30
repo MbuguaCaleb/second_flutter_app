@@ -230,6 +230,8 @@ Row Properties
 
 **Columns**
 ```
+A column goes up and down , a row goes across.
+
 They are used for alignment and they are the opposite of a row.
 
 we use the mainaxis alignment as the main axis which is the column as the name suggests.
@@ -241,7 +243,43 @@ The cross axis is the smaller axis in each case...
 (the column when centering takes the maximum width of the element which you are aligning.
 
 We may as well nest rows and columns.
+
+Important things about rows and column widgets is that they take an array of widgets and thus you may
+use them for the puposes of alignment.
+
 ```
+
+**Code**
+```
+ body:Column(
+    mainAxisAlignment:MainAxisAlignment.end,
+    crossAxisAlignment: CrossAxisAlignment.end,
+    children: <Widget>[
+    Container(
+    padding: EdgeInsets.all(20.0),
+    color:Colors.cyan,
+    child: Text(
+    'one'
+    ),
+    ),
+    Container(
+    padding: EdgeInsets.all(30.0),
+    color:Colors.pinkAccent,
+    child: Text(
+    'two'
+    ),
+    ),
+    Container(
+    padding: EdgeInsets.all(40.0),
+    color:Colors.amber,
+    child: Text(
+    'three'
+     ),
+
+Column works exactly as a rown , but in the opposite direction.
+
+```
+
 
 **Notes by**
 
