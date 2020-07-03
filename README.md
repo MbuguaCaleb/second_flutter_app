@@ -288,6 +288,22 @@ and also flutter outline in the side bar
 
 ```
 
+**EXPANDED WIDGET**
+```
+When we put a widget inside and expanded widget, that widget takes the full  width/length of the 
+screen.
+
+A great use of expanded widget is that it enables me use the flex property
+just as similarly happens in Web.
+
+Wow...a great thought is that rows and columns take in Widgets thus what i expect
+inside is not 
+
+It may help large images not overlap the whole container.
+
+```
+
+
 **Notes by**
 
 ```
